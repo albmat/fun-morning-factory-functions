@@ -48,6 +48,6 @@ describe('properties', function () {
         const testCoffee = makeCoffeeMachine("Java Lava"); // object
         testCoffee.addWater(); // function +1
         expect(testCoffee.makeCoffee("Espresso")).toBe("An Espresso made with Java Lava");
-        expect(testCoffee.makeCoffee("Americano")).toBe("An Americano made with Java Lava");
+        expect(testCoffee.makeCoffee()).toBe("An Americano made with Java Lava");
     });
 })

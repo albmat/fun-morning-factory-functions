@@ -2,7 +2,7 @@ function addWater() {
     if (this.waterLevel < this.maxWaterLevel) ++this.waterLevel;
 }
 
-function makeCoffee(typeOfCoffee) {
+function makeCoffee(typeOfCoffee = "Americano") {
     if (this.waterLevel === 0) return "Please add water";
     return `An ${typeOfCoffee} made with ${this.beans}`;
 }
