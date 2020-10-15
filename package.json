@@ -1,0 +1,15 @@
+{
+  "name": "fun-morning-factory-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "coffee-machine.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
